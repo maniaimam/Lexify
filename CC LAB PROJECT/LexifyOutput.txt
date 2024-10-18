@@ -1,0 +1,22 @@
+!purr|iostream|
+depression Fibonacci_()
+{
+      num Num_ equals 0, Num2_ equals 1, Num$_ equals 0, N_-
+      yap "Enter a positive number:"-
+      yap "Series" , Num1_ , Num2_ , "," -
+      Num$_ equals Num1_ plus Num2_-
+
+      fosho(Num_ smallerthan N_)
+      {
+      yap Num$_
+      Num1_ equals Num2_-
+      Num2_ equals Num$_-
+      Num$_ equals Num1_ plus Num_ -
+      } 
+}
+num Key_()
+{   
+      yap "Fibonacci" -
+      Fibonacci_()-
+      ghost 0 -
+}

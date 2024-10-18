@@ -1,0 +1,83 @@
+!
+purr
+|
+iostream
+|
+DT
+Identifier
+(
+)
+{
+DT
+Identifier
+Equals Operator
+int_const
+,
+Identifier
+Equals Operator
+int_const
+,
+Identifier
+Equals Operator
+int_const
+,
+Identifier
+-
+yap
+String_const
+-
+yap
+String_const
+,
+Identifier
+,
+Identifier
+,
+String_const
+-
+Identifier
+Equals Operator
+Identifier
+ADDSUB Operator
+Identifier
+-
+fosho
+(
+Identifier
+Relational Operator
+Identifier
+)
+{
+yap
+Identifier
+Identifier
+Equals Operator
+Identifier
+-
+Identifier
+Equals Operator
+Identifier
+-
+Identifier
+Equals Operator
+Identifier
+ADDSUB Operator
+Identifier
+-
+}
+}
+DT
+Identifier
+(
+)
+{
+yap
+String_const
+-
+Identifier
+(
+)
+-
+ghost
+int_const
+-
